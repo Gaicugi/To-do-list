@@ -130,7 +130,7 @@ function getTodos(){
     });
 }
 
-function removeLocaTodos(todo){
+function removeLocalTodos(todo){
     let todos;
     if(localStorage.getItem('todos') === null){
         todos = [];
